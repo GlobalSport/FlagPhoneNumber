@@ -6,7 +6,7 @@ let package = Package(
     name: "FlagPhoneNumber",
     platforms: [.macOS(.v10_10), .iOS(.v8)],
     products: [
-        .library(name: "FlagPhoneNumber", targets: ["FlagPhoneNumber"]),
+        .library(name: "FlagPhoneNumber", targets: ["FlagPhoneNumber","FlagPhoneNumberKit"]),
     ],
     dependencies: [],
     targets: [
