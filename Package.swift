@@ -24,7 +24,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "FlagPhoneNumber",
-            dependencies: ["libPhoneNumber"])
+            dependencies: ["libPhoneNumber"],
+            resources: [.copy("Sources/FlagPhoneNumber/Resources/countryCodes.json")])
     ]
 )
 
