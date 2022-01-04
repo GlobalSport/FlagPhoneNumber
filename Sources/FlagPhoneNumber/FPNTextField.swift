@@ -5,9 +5,8 @@
 //  Created by Aurélien Grifasi on 06/08/2017.
 //  Copyright (c) 2017 Aurélien Grifasi. All rights reserved.
 //
-
+import libPhoneNumber
 import UIKit
-
 open class FPNTextField: UITextField {
 
 	/// The size of the flag button
