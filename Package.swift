@@ -25,7 +25,8 @@ let package = Package(
         .target(
             name: "FlagPhoneNumber",
             dependencies: ["libPhoneNumber"],
-            resources: [.copy("Sources/FlagPhoneNumber/Resources/countryCodes.json")])
+            resources: [.process("Resources/countryCodes.json"),
+                        .process("Resources/FlagKit.xcassets")])
     ]
 )
 
